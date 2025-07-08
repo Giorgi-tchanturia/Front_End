@@ -1233,6 +1233,7 @@ border: 1px solid #909090;
 
   .testimonial-card {
     max-width: 90%;
+    flex: 1 1 auto;
   }
 
   .testimonial-image img {
