@@ -750,7 +750,7 @@ border: 1px solid #909090;
 
 .testimonial-card {
   position: relative;
-  max-width: 50%;
+  flex: 1 1 500px;
   background: #fff;
   padding: 40px 30px;
   border-radius: 20px;
