@@ -175,7 +175,7 @@ body {
 
 .hero-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .btn-primary {
@@ -750,7 +750,7 @@ border: 1px solid #909090;
 
 .testimonial-card {
   position: relative;
-  flex: 1 1 500px;
+  max-width: 50%;
   background: #fff;
   padding: 40px 30px;
   border-radius: 20px;
@@ -1153,6 +1153,10 @@ border: 1px solid #909090;
     display: none;
   }
 
+  .register_box{
+    margin: 5px 0px;
+  }
+
   .burger {
     display: block;
   }
@@ -1165,6 +1169,10 @@ border: 1px solid #909090;
   .hero {
     flex-direction: column;
     padding: 40px 40px;
+  }
+
+  .hero-buttons{
+    justify-content: center;
   }
 
   .hero-left, .hero-right {
@@ -1272,6 +1280,7 @@ border: 1px solid #909090;
         flex: 0 0 45%;
         max-width: 45%;
     }
+  
 }
 
 
@@ -1403,6 +1412,7 @@ border: 1px solid #909090;
     .footer-column {
       flex: 0 0 100%;
       max-width: 100%;
+      padding: 0 15px;
     }
 
     .email-input {
@@ -1413,7 +1423,7 @@ border: 1px solid #909090;
     .email-input input,
     .email-input button {
       border-radius: 20px;
-      width: 100%;
+      max-width: 70%;
     }
 }
 
@@ -1585,6 +1595,7 @@ border: 1px solid #909090;
     .email-input button {
         font-size: 14px;
         padding: 8px 12px;
+        max-width: 80%;
     }
 }
 
@@ -1695,7 +1706,6 @@ border: 1px solid #909090;
         padding: 6px 10px;
     }
 
-  
 }
 
 
